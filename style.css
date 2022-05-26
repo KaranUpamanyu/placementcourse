@@ -1,0 +1,80 @@
+.brand-name {
+  font-family: 'Pacifico', cursive;
+  margin-left: 20px;
+  border: none;
+  transition: transform .2s;
+}
+
+.brand-name:hover {
+  transform: scale(1.02);
+}
+
+.nav-link {
+  color: #d3416a;
+  transition: transform .2s;
+}
+
+
+.nav-link:hover {
+  color: #f67196;
+  transform: scale(1.1);
+}
+
+.parallax::after {
+  transform: translateY(-10px);
+}
+
+.poster-bottom {
+  display: block;
+  margin: auto;
+  width: 30vw;
+}
+
+.center-cont {
+  display: flex;
+  align-content: center;
+  margin-top: 100px;
+}
+
+h2 {
+  color: #d3416a;
+}
+
+hr {
+  margin: 100px;
+}
+
+.box {
+  display: inline-block;
+  /* color: black; */
+}
+
+p {
+  margin-top: 30px;
+}
+
+.stylized-p {
+  font-style:italic;
+  font-size: large;
+  /* color: #d3416a; */
+}
+
+a,b {
+  color: #d3416a;
+}
+
+a:hover {
+  color: #f67196;
+}
+
+@media only screen and (max-width: 760px) {
+  .poster-bottom {
+    width: 60vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .poster-bottom {
+    width: 90vw;
+  }
+}
