@@ -1,3 +1,22 @@
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffecf1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f67196;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #d3416a;
+}
+
+
+
 .brand-name {
   font-family: 'Pacifico', cursive;
   margin-left: 20px;
@@ -20,9 +39,6 @@
   transform: scale(1.1);
 }
 
-.parallax::after {
-  transform: translateY(-10px);
-}
 
 .poster-bottom {
   display: block;
@@ -42,6 +58,36 @@ h2 {
 
 hr {
   margin: 100px;
+}
+
+.svg-top {
+  /* background-image: linear-gradient(#fddce5, #f67196); */
+  background-color: #fddce5;
+  margin: 0 0 60px 0;
+}
+
+.svg-bottom {
+  /* background-image: linear-gradient(#f67196, #fddce5); */
+  background-color: #fddce5;
+  margin: 60px 0 0 0;
+}
+
+.container-colored {
+  background-color: #fddce5;
+  margin: 0;
+  padding: 0;
+}
+
+.container-colored>p{
+  margin: 0;
+  padding: 0 80px;
+  display: block;
+}
+
+.container-border {
+  border: #f67196 solid 20px;
+  padding: 60px;
+  margin: 100px auto;
 }
 
 .box {
@@ -66,6 +112,7 @@ a,b {
 a:hover {
   color: #f67196;
 }
+
 
 @media only screen and (max-width: 760px) {
   .poster-bottom {
