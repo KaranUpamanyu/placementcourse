@@ -1,3 +1,9 @@
+body {
+  overflow-x: hidden;
+  font-style: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
 ::-webkit-scrollbar {
   width: 15px;
 }
@@ -14,8 +20,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: #d3416a;
 }
-
-
 
 .brand-name {
   font-family: 'Pacifico', cursive;
@@ -93,6 +97,10 @@ hr {
 .box {
   display: inline-block;
   /* color: black; */
+}
+
+.heythere {
+  font-size: 1.3rem;
 }
 
 p {
